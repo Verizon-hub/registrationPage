@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <main>
+         <form onsubmit="return validation();" action="welcome.html">
+        
+          <div>
+            <label for="name">Name</label> 
+            <input id="name" type="text">  <br>
+            <span id="errorName"></span> 
+            <label for="lastname">Lastname</label> 
+            <input id="lastname" type="text"> <br>
+            <span id="errorLastname"></span>
+            <label for="password">Password</label> 
+            <input id="password" type="password"> <br>
+            <span id="errorPassword"></span>
+            <label for="cpassword">Confirm Password</label>
+            <input id="cpassword" type="password" > <br>
+            <span id="errorCpassword"></span>
+            <label for="email">Email</label>
+            <input id="email" type="email"> <br>
+            <span id="errorEmail"></span> <br>
+            <button type="submit">REGISTER</button>
+            <div class="loginHere">Already registered?<a href="index.html">  Login</a></div>
+          </div>
+        
+        
+        </form>
+    </main>
+
+    <footer>
+      <div>&copy;Copyright Bagrat Tchintchaladze 2020</div>
+    </footer>
+</body> 
+</html>

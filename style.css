@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main form {
+    display: flex;
+    width: 30%;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+form div label{
+    font-family: "Montserrat",sans-serif;
+    color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+
+}
+form input {
+    position: relative;
+    padding: 2px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+form input:focus {
+    border:1px solid rgb(6, 196, 16);
+}
+form button {
+    font-size: 200;
+    font-weight: 700;
+    margin-top: 1px;
+    padding: 10px;   
+    transition: all 1s;
+    border-radius: 10px;
+}
+
+form button:hover{
+    -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    box-shadow: 5px 5px 15px 2px #000000;
+    background-color: #4d94ff;
+
+}
+form div span{
+    position: relative;
+    color: red;
+    top: 6px;
+    font-style: italic;
+}
+.loginHere {
+    position: relative;
+    top: 15px;
+}
+.loginHere a {
+    text-decoration: none;
+    
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+}
+footer div {
+     position: relative;
+     text-align: center;
+     padding-top: 28px;
+}
